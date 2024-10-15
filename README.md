@@ -18,3 +18,7 @@
 > [!CAUTION]
 > El programa es sensible a las mayúsculas y minúsculas. Asegúrate de ingresar letras en minúsculas, ya que la palabra secreta está en minúsculas. Si ingresas una letra mayúscula, el programa no la reconocerá como correcta.
 
+**Future improvements:**
+- Implementar soporte para distinguir entre mayúsculas y minúsculas.
+- Añadir la opción de que el jugador pueda reiniciar el juego tras "GAME OVER".
+- Añadir una interfaz gráfica para una mejor experiencia de usuario.
