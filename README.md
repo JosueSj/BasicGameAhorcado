@@ -7,6 +7,7 @@
 > String palabraSecreta = "inteligencia"; // Cambia la palabra secreta aquí
 > int intentosMax = 5;                    // Cambia el número máximo de intentos aquí
 > ```
+
 > [!IMPORTANT]
 > Actualmente, no hay opción para que el jugador reinicie el juego sin cerrar y volver a ejecutar el programa.
 > El programa no maneja casos donde el jugador ingrese símbolos, números o espacios en blanco.
