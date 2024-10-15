@@ -2,10 +2,11 @@
 >El juego distingue entre letras correctas e incorrectas. Las letras correctas se muestran en la posición correspondiente en la palabra a adivinar.
 
 > [!TIP]
-> Puedes modificar la palabra secreta y los intentos máximos cambiando los valores en las siguientes líneas de código:  String palabraSecreta = "inteligencia"; // Cambia la palabra secreta aquí
-                    int intentosMax = 5;                    // Cambia el número máximo de intentos aquí
-
-
+> Puedes modificar la palabra secreta y los intentos máximos cambiando los valores en las siguientes líneas de código:  
+> ```java
+> String palabraSecreta = "inteligencia"; // Cambia la palabra secreta aquí
+> int intentosMax = 5;                    // Cambia el número máximo de intentos aquí
+> ```
 > [!IMPORTANT]
 > Actualmente, no hay opción para que el jugador reinicie el juego sin cerrar y volver a ejecutar el programa.
 > El programa no maneja casos donde el jugador ingrese símbolos, números o espacios en blanco.
