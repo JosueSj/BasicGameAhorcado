@@ -1,9 +1,10 @@
 >[!NOTE]
 >El juego distingue entre letras correctas e incorrectas. Las letras correctas se muestran en la posición correspondiente en la palabra a adivinar.
+
 > [!TIP]
 > Puedes modificar la palabra secreta y los intentos máximos cambiando los valores en las siguientes líneas de código:
->String palabraSecreta = "inteligencia"; // Cambia la palabra secreta aquí
->int intentosMax = 5;                    // Cambia el número máximo de intentos aquí
+> String palabraSecreta = "inteligencia"; // Cambia la palabra secreta aquí
+> int intentosMax = 5;                    // Cambia el número máximo de intentos aquí
 
 > [!IMPORTANT]
 > El programa es sensible a las mayúsculas y minúsculas. Asegúrate de ingresar letras en minúsculas, ya que la palabra secreta está en minúsculas. Si ingresas una letra mayúscula, el programa no la reconocerá como correcta.
