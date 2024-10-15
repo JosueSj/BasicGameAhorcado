@@ -1,18 +1,16 @@
-## Getting Started
+>[!NOTE]
+>El juego distingue entre letras correctas e incorrectas. Las letras correctas se muestran en la posición correspondiente en la palabra a adivinar.
+> [!TIP]
+> Puedes modificar la palabra secreta y los intentos máximos cambiando los valores en las siguientes líneas de código:
+>String palabraSecreta = "inteligencia"; // Cambia la palabra secreta aquí
+>int intentosMax = 5;                    // Cambia el número máximo de intentos aquí
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> [!IMPORTANT]
+> El programa es sensible a las mayúsculas y minúsculas. Asegúrate de ingresar letras en minúsculas, ya que la palabra secreta está en minúsculas. Si ingresas una letra mayúscula, el programa no la reconocerá como correcta.
 
-## Folder Structure
+> [!WARNING]
+> Si el jugador agota todos sus intentos sin adivinar la palabra, el juego terminará con un mensaje de "GAME OVER".
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> [!CAUTION]
+> Actualmente, no hay opción para que el jugador reinicie el juego sin cerrar y volver a ejecutar el programa.
+> El programa no maneja casos donde el jugador ingrese símbolos, números o espacios en blanco.
